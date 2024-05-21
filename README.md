@@ -1,0 +1,1 @@
+How many possible handshake between N people?
