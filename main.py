@@ -3,7 +3,7 @@ def printHandshakes(peoples):
     handshakes = 0
     # First represent the first people involved in the handshake
     # Cycling all the list
-    for first in range(0,len(peoples)):
+    for first in range(0,len(peoples)-1):
         # Second represent the first people involved in the handshake
         # Cycling all the list without the elements already considered
         for second in range(first+1,len(peoples)):
